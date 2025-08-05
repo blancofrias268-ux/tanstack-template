@@ -1,0 +1,30 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Simple Video Page</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        .container { max-width: 600px; margin: auto; }
+        .ad { background: #f9f9a9; padding: 16px; margin: 20px 0; text-align: center; border: 1px solid #e2e200; }
+        video { width: 100%; max-width: 100%; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>My Awesome Video</h1>
+        <video controls>
+            <source src="https://de02.pixeldrain.com/u/6tEoLZuY" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="ad">
+            <a href="https://www.trebbleblock.help/?sl=5979375-797cf&pub_click_id={External_ID_from_traffic_source}&site={subID}&pub_sub_id={sub_subID}" target="_blank">
+                Click here for our sponsor! 
+            </a>
+            <!-- Replace this with your ad code or image -->
+            <br>
+            <strong>Ad:</strong> Buy the best products here!
+        </div>
+    </div>
+</body>
+</html>
